@@ -1,0 +1,8 @@
+Gx
+Gy
+
+Gi 1 0
+GxGi 1 0
+GyGi 1 0
+GxGiGx 1 0
+GxGiGy 1 0
