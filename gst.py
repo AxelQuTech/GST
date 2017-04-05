@@ -1,4 +1,4 @@
-class feducial:
+class feducial(object):
     """Class for feducials, store gate sequence and counts feducials constructed and gives each an index"""
     _counter=0
     def __init__(self,gate_seq):
@@ -12,7 +12,7 @@ class feducial:
     def get_gate_seq(self):
         return self._gate_seq
 
-class gst:
+class gst(object):
     """Base class for going gst, (add more doc later)"""
     def __init__(self,gates):
         try:
